@@ -39,6 +39,8 @@ private slots:
 
     void on_pbRet_clicked();
 
+    void on_pb500_clicked();
+
 private:
     Ui::Widget *ui;
 };

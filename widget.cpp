@@ -82,7 +82,10 @@ void Widget::on_pb100_clicked()
     changeMoney(100);
 }
 
-
+void Widget::on_pb500_clicked()
+{
+    changeMoney(500);
+}
 void Widget::on_pbCup_clicked()
 {
     changeMoney(-100);
@@ -106,4 +109,6 @@ void Widget::on_pbRet_clicked()
     anyone();
     mb.information(nullptr,"title",strReturn());
 }
+
+
 
